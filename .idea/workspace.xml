@@ -5,9 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d87cdb-8f6f-4814-9d47-ddbe72ec8deb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/IngredienteDuplicadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/armazem/Armazem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/armazemTest/ArmazemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/Adicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/Adicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/Fruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/Fruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/Ingrediente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/Ingrediente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/TipoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/TipoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/TipoFruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/TipoFruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/TipoTopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/TipoTopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ingredientes/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ingrediente/Topping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pedido/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pedido/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pedido/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/produto/Shake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produto/Shake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pedido/CardapioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pedido/CardapioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pedido/PedidoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pedido/PedidoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/Adicional.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/Fruta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/Ingrediente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/TipoBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/TipoFruta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/TipoTopping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ingredientes/Topping.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +82,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2DXPcgZXJQj2VOAS7BOXPkcyRqa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,15 +93,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/peterls/Documentos/total-shake/shake-week1/target"
+    "last_opened_file_path": "/home/peterls/Documentos/total-shake/shake-week1/src/main/java/armazem",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/armazem" />
       <recent name="$PROJECT_DIR$/target" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="armazemTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.PedidoTest">
+  <component name="RunManager" selected="JUnit.ArmazemTest.adicionarQuantidadeDoIngredienteEmEstoqueQuantidadeInvalida">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Program" />
       <module name="ShakeCIT" />
@@ -87,6 +116,37 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmazemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShakeCIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="armazemTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="armazemTest" />
+      <option name="MAIN_CLASS_NAME" value="armazemTest.ArmazemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArmazemTest.adicionarQuantidadeDoIngredienteEmEstoqueQuantidadeInvalida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShakeCIT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="armazemTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="armazemTest" />
+      <option name="MAIN_CLASS_NAME" value="armazemTest.ArmazemTest" />
+      <option name="METHOD_NAME" value="adicionarQuantidadeDoIngredienteEmEstoqueQuantidadeInvalida" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,6 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArmazemTest.adicionarQuantidadeDoIngredienteEmEstoqueQuantidadeInvalida" />
+        <item itemvalue="JUnit.ArmazemTest" />
         <item itemvalue="JUnit.PedidoTest" />
         <item itemvalue="Application.Program" />
         <item itemvalue="JUnit.CardapioTest" />

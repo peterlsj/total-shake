@@ -1,4 +1,4 @@
-package ingredientes;
+package ingrediente;
 
 public class Base implements Ingrediente,Comparable<Ingrediente>{
 

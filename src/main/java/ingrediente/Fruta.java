@@ -1,4 +1,4 @@
-package ingredientes;
+package ingrediente;
 
 public class Fruta  implements Adicional,Comparable<Ingrediente>{
      private TipoFruta tipoFruta;

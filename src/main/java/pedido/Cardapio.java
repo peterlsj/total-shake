@@ -1,6 +1,6 @@
 package pedido;
 
-import ingredientes.Ingrediente;
+import ingrediente.Ingrediente;
 
 import java.util.TreeMap;
 

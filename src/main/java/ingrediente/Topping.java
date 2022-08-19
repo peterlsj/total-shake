@@ -1,4 +1,4 @@
-package ingredientes;
+package ingrediente;
 
 public class Topping implements Adicional,Comparable<Ingrediente> {
     private TipoTopping tipoTopping;

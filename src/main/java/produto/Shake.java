@@ -1,8 +1,7 @@
 package produto;
 
-import ingredientes.*;
+import ingrediente.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Shake {
